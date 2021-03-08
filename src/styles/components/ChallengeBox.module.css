@@ -1,0 +1,109 @@
+.challengeContainer {
+    height: 100%;
+
+    background: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgb(0, 0, 0.05);
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.challengeContainer .challegeNotAtive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challengeContainer .challegeNotAtive strong {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.challengeContainer .challegeNotAtive p img {
+    padding-bottom: 10px;
+}
+
+.challengeContainer .challegeNotAtive p {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    line-height: 1.4;
+    max-width: 70%;
+    font-size: 1.5rem;   
+}
+
+.chalegeAtive {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;   
+}
+
+.chalegeAtive header {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0 2rem 1.5rem;
+}
+
+.chalegeAtive main  {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chalegeAtive main strong  { 
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--title);
+    margin:1.5rem 0 1rem
+}
+
+
+.chalegeAtive main p  { 
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.chalegeAtive footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem
+}
+
+
+.chalegeAtive footer button { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 3rem;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+
+    transition: filter 0.1s;
+}
+
+.chalegeAtive footer button:hover { 
+    filter: brightness(0.9)
+}
+
+.chalegeAtive footer button.challegeFailedButton {
+    background: var(--red);
+} 
+
+.chalegeAtive footer button.challegeCompleteButton {
+    background: var(--green);
+} 
