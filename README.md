@@ -1,4 +1,6 @@
-##Projeto
+![image](https://user-images.githubusercontent.com/17939912/110388474-ef3e5000-8041-11eb-9dde-5addbe39fbc1.png)
+
+## Projeto
 O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
 Esse projeto foi desenvolvido campanhando um evento nlw#4 da rockeseat.
 
@@ -21,5 +23,5 @@ Next.js
 TypeScript
 React Icons
 
-![image](https://user-images.githubusercontent.com/17939912/110388474-ef3e5000-8041-11eb-9dde-5addbe39fbc1.png)
+
 
