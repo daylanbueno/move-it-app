@@ -7,8 +7,8 @@ Esse projeto foi desenvolvido campanhando um evento nlw#4 da rockeseat.
 ## Instalação e uso
 apos baixar o projeto 
 
-1 - yarn install 
-2 - yarn dev
+- yarn install 
+- yarn dev
 # or
 npm run dev
 ```
